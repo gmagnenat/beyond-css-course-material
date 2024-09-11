@@ -1,7 +1,41 @@
 .primary-article {
   padding: 3rem 1rem;
+
+  .title {
+    font-size: 5rem;
+
+    span {
+      color: red;
+    }
+  }
 }
 
 .pointing-list {
   margin: 2rem 0;
+
+  li {
+    padding-left: .5rem;
+
+    &::marker {
+      content: "👉"
+    }
+  }
+}
+
+nav {
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+
+    li {
+      padding: 0.5rem 1.5rem;
+      background: #333;
+
+      a {
+        color: #fff;
+        text-decoration: none;
+      }
+    }
+  }
 }

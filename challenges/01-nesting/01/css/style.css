@@ -1,0 +1,36 @@
+@charset "UTF-8";
+.primary-article {
+  padding: 3rem 1rem;
+}
+.primary-article .title {
+  font-size: 5rem;
+}
+.primary-article .title span {
+  color: red;
+}
+
+.pointing-list {
+  margin: 2rem 0;
+}
+.pointing-list li {
+  padding-left: 0.5rem;
+}
+.pointing-list li::marker {
+  content: "👉";
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+}
+nav ul li {
+  padding: 0.5rem 1.5rem;
+  background: #333;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */
